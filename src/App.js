@@ -93,11 +93,11 @@ function App() {
     <Container>
       <Header>
         <AppName>
-          <MovieImage src="/react-movie-app/movie-icon.svg" />
+          <MovieImage src="https://img.freepik.com/free-vector/flat-clapperboard-icon_1063-38.jpg?w=360" />
           React Movie App
         </AppName>
         <SearchBox>
-          <SearchIcon src="/react-movie-app/search-icon.svg" />
+          <SearchIcon src="https://i.pinimg.com/736x/fa/0e/7b/fa0e7b992eff03c576727e95c746005c.jpg" />
           <SearchInput
             placeholder="Search Movie"
             value={searchQuery}
@@ -116,7 +116,7 @@ function App() {
             />
           ))
         ) : (
-          <Placeholder src="/react-movie-app/movie-icon.svg" />
+          <Placeholder src="https://img.freepik.com/free-vector/flat-clapperboard-icon_1063-38.jpg?w=360" alt="MOVIE SEARCH" />
         )}
       </MovieListContainer>
     </Container>
